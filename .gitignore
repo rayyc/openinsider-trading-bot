@@ -1,0 +1,157 @@
+# ═══════════════════════════════════════════════════════════
+# OPENINSIDER TRADING BOT - GIT IGNORE FILE
+# Alpaca Paper/Live Trading System
+# Prevents sensitive data from being uploaded to GitHub
+# ═══════════════════════════════════════════════════════════
+
+# ── API Keys & Credentials (CRITICAL - NEVER COMMIT!) ─────
+.env
+*.env
+.env.local
+.env.production
+.env.backup
+credentials.json
+secrets.json
+api_keys.txt
+config_local.py
+
+# ── Python Virtual Environment ────────────────────────────
+venv/
+env/
+ENV/
+.venv
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ── Logs & Debug Files ────────────────────────────────────
+logs/
+*.log
+debug.log
+trading_bot.log
+*.log.*
+log_*.txt
+
+# ── Trading Data & State (Personal) ───────────────────────
+trade_history.json
+circuit_breaker_state.json
+positions.json
+portfolio_state.json
+orders.json
+*.csv
+data/*.csv
+trades.csv
+insider_data.csv
+
+# ── Database Files ────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ── IDE & Editor Files ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+
+# ── Build & Distribution ──────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# ── Testing & Coverage ────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+
+# ── Jupyter Notebooks ─────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Temporary & Cache Files ───────────────────────────────
+*.tmp
+*.temp
+tmp/
+temp/
+*.bak
+*.cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Operating System Files ────────────────────────────────
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*
+*.DS_Store
+
+# ── Backup Files ──────────────────────────────────────────
+*.backup
+*_backup.py
+backup/
+*.orig
+
+# ── Streamlit Cache ───────────────────────────────────────
+.streamlit/
+*.streamlit/
+
+# ── Compiled Python ───────────────────────────────────────
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Distribution / Packaging ──────────────────────────────
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# ── PyInstaller ───────────────────────────────────────────
+*.manifest
+*.spec
+
+# ── mypy ──────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ── Pyre type checker ─────────────────────────────────────
+.pyre/
+
+# ── pytype static type analyzer ───────────────────────────
+.pytype/
+
+# ── Cython debug symbols ──────────────────────────────────
+cython_debug/
